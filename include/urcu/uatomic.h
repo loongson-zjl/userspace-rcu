@@ -81,6 +81,8 @@ static inline int cmm_to_c11(int mo)
 #include <urcu/uatomic/arm.h>
 #elif defined(URCU_ARCH_AARCH64)
 #include <urcu/uatomic/aarch64.h>
+#elif defined(URCU_ARCH_LOONGARCH)
+#include <urcu/uatomic/loongarch.h>
 #elif defined(URCU_ARCH_MIPS)
 #include <urcu/uatomic/mips.h>
 #elif defined(URCU_ARCH_NIOS2)
