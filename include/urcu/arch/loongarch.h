@@ -6,7 +6,7 @@
 #define _URCU_ARCH_LOONGARCH_H
 
 /*
- * arch/loongarch.h: definitions for the RISC-V architecture
+ * arch/loongarch.h: definitions for the LoongArch architecture
  */
 
 #include <urcu/compiler.h>
