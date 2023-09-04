@@ -141,6 +141,10 @@
 #define URCU_ARCH_HPPA 1
 #include <urcu/arch/hppa.h>
 
+#elif defined(__loongarch__)
+#define URCU_ARCH_LOONGARCH 1
+#include <urcu/arch/loongarch.h>
+
 #elif defined(__m68k__)
 
 #define URCU_ARCH_M68K 1
