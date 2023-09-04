@@ -5,6 +5,9 @@
 #ifndef _URCU_UATOMIC_ARCH_LOONGARCH_H
 #define _URCU_UATOMIC_ARCH_LOONGARCH_H
 
+/*
+ * Atomic exchange operations for the LoongArch architecture. Let GCC do it.
+ */
 
 #include <urcu/compiler.h>
 #include <urcu/system.h>
